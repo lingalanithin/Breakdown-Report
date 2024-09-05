@@ -1,0 +1,111 @@
+
+.form-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+
+.form-section {
+  width: 100%;
+}
+
+
+.form-grid {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  min-width: 150px;
+  margin-right: 0;
+  text-align: left;
+}
+
+.form-group input,
+.form-group select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+h2,h3{
+  color: #f39600;
+}
+button {
+  padding: 10px 20px;
+  background-color: #f39600;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color: #bc7c1b;
+}
+
+
+.form-separator {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .form-container {
+    max-width: 100%;
+  }
+
+  .form-grid {
+    flex-direction: column;
+  }
+
+  .form-column {
+    min-width: 100%;
+  }
+
+  .form-group {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+  .form-group label {
+    margin-bottom: 5px;
+    min-width: auto;
+  }
+}
+
+
+.vehicle-form {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+
+.power-tools-form {
+  margin-top: 20px;
+  padding: 20px;
+}
