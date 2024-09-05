@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Breakdown-Report/static/css/main.d553c0ef.css",
+    "main.js": "/Breakdown-Report/static/js/main.752741e0.js",
+    "static/js/453.ed3810f9.chunk.js": "/Breakdown-Report/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Breakdown-Report/index.html",
+    "main.d553c0ef.css.map": "/Breakdown-Report/static/css/main.d553c0ef.css.map",
+    "main.752741e0.js.map": "/Breakdown-Report/static/js/main.752741e0.js.map",
+    "453.ed3810f9.chunk.js.map": "/Breakdown-Report/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d553c0ef.css",
+    "static/js/main.752741e0.js"
+  ]
+}
